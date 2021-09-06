@@ -1,5 +1,6 @@
 # Architecture:
-## Use case UML diagram:
-    ![](usecase.jpg)
+## UML Diagrams:
+### 1.Use case UML diagram
+![usecase](usecase.jpg)
 
-    <img src="usecase.jpg">
+

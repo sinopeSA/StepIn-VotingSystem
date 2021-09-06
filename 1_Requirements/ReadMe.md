@@ -48,3 +48,7 @@
     2. The system should be Reliable
     3. The system should be portable, hence supportable.
     4. The system should be easy to maintain.
+
+## Gantt Chart:
+![Gantt Chart](/1_Requirements/Gantt_chart.jpg)
+
