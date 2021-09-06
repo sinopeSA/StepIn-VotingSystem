@@ -50,4 +50,4 @@
     4. The system should be easy to maintain.
 
 ## Gantt Chart:
-    ![Gantt Chart](https://github.com/sinopeSA/StepIn-VotingSystem/blob/master/1_Requirements/Gantt_chart.PNG)
+    ![Gantt Chart](https://github.com/GEN-AUG/SDLC_01_Falcon/blob/main/2_Architecture/Behavioural%20Diagram/useCase.jpg)
