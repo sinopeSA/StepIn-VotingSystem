@@ -51,3 +51,4 @@
 
 ## Gantt Chart:
     ![Gantt Chart](1_Requriments/Gantt_chart.jpg)
+    <img src="1_Requriments/Gantt_chart.jpg">
