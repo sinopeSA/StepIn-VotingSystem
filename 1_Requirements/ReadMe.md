@@ -1,4 +1,4 @@
-# REQURIMENTS
+# REQUIREMENTS
 ## Introdction:
     Voting System Application  helps in casting and calculating the votes. This application has 2 different section.
     
