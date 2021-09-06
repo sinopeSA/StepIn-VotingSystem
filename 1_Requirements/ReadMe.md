@@ -49,3 +49,5 @@
     3. The system should be portable, hence supportable.
     4. The system should be easy to maintain.
 
+## Gantt Chart:
+    ![Gantt Chart](Gantt_chart.PNG)
