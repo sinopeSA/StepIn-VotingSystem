@@ -1,3 +1,5 @@
 # Architecture:
 ## Use case UML diagram:
-    ![use Case](usecase.png)
+    ![](usecase.jpg)
+
+    <img src="usecase.jpg">
