@@ -9,7 +9,7 @@
  * 
  */
 
-#include "inc/ELECTION.H"
+#include "ELECTION.H"
 
 void adminPanel()
 {
