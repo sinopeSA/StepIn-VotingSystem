@@ -50,5 +50,5 @@
     4. The system should be easy to maintain.
 
 ## Gantt Chart:
-    ![Gantt Chart](1_Requriments/Gantt_chart.jpg)
+    ![Gantt Chart](1_Requirements/Gantt_chart.jpg)
     <img src="1_Requriments/Gantt_chart.jpg">
