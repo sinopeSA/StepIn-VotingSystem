@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "ELECTION.H": "cpp",
-        "MAIN.C": "cpp"
+        "MAIN.C": "cpp",
+        "project_main.C": "cpp"
     }
 }
