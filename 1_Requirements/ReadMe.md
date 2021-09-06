@@ -51,4 +51,3 @@
 
 ## Gantt Chart:
 ![Gantt Chart](/1_Requirements/Gantt_chart.jpg)
-
