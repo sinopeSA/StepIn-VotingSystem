@@ -6,7 +6,10 @@ BUILD = build
 
 # All source code files
 SRC = project_main.c
-#src/panel.c\
+
+#src/adminpanel.c\
+#src/studentpanel.c\
+#src/ELECTION.c
 
 # All test source files
 #TEST_SRC = 
@@ -38,7 +41,7 @@ INC	= -Iinc\
 INCLUDE_LIBS = -lcunit
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME)
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
@@ -53,8 +56,8 @@ all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).$(EXEC)
 
 # Call `make run` to run the application
-run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+run: $(PROJECT_NAME)
+	./$(PROJECT_OUTPUT).$(EXEC)
 
 # Document the code using Doxygen
 doc:

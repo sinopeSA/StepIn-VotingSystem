@@ -8,8 +8,6 @@
  * @copyright Copyright (c) 2021
  * 
  */
-
-#include "ELECTION.c"
 void studentPanel()
 {
     char userID[15];

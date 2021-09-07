@@ -9,8 +9,7 @@
  * 
  */
 
-#include "src/adminpanel.c"
-#include "src/studentpanel.c"
+#include "src/panel.c"
 
 int main()
 {
