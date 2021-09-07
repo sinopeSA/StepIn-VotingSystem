@@ -71,7 +71,7 @@ void adminPanel()
 void studentPanel()
 {
     char userID[15];
-    char voteInput;
+    int voteInput;
     while (1)
     {
         printf("\n\n  To exit press 0");
@@ -108,7 +108,7 @@ void studentPanel()
         }
         printf("\n\n  Your Vote(Enter Number):");
         scanf("%d", &voteInput);
-        if (voteInput - 48 < 1 || voteInput - 48 > numberOfCandidates)
+        if (voteInput  < 1 || voteInput > numberOfCandidates)
         {
             printf("\nInvalid Vote\nTry Again...");
             scanf("%d", &voteInput);

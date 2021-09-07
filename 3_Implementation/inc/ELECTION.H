@@ -221,21 +221,22 @@ int isValid(char userID[15])
     int inputedRollNo = extractRollNo(userID);
 
     if (inputedYear != currentValidID.year || checkBranchCode(userID) != 1 || inputedRollNo > currentValidID.totalVoters)
+        //prinft("Something is Wrong, try again");
         return 0;
 
     return 1;
 }
 
-void saveVote(char userID[15], char voteInput)
+void saveVote(char userID[15], int voteInput)
 {
     char filename[20];
-    sprintf(filename, "candidate%d.txt", voteInput - 48);
+    sprintf(filename, "candidate%d.txt", voteInput);
     FILE *fp = fopen(filename, "r+");
     int location = extractRollNo(userID);
     studentVotes[location - 1] = voteInput;
-    candidateArray[voteInput - 49].votes++;
+    candidateArray[voteInput].votes++;
     fseek(fp, 0, SEEK_SET);
-    fprintf(fp, "%d\n", candidateArray[voteInput - 49].votes);
+    fprintf(fp, "%d\n", candidateArray[voteInput].votes);
     fseek(fp, 0, SEEK_END);
     fprintf(fp, "\n%d", location);
     fclose(fp);
