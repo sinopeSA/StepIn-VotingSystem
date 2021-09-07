@@ -7,8 +7,9 @@
         2. Admin Section (Panel)
         3. Exit( system Exit)
    
-    Evolving from pen paper based election to Digital casting of election has made it easy to keey the tract on the number of votes, counting and recognising the duplicate votes or illegal votes.
-    The Voting system can be used for varoius purpose. Here the system designed is only for Eductional institude election level.
+    Evolving from pen paper based election to Digital casting of election has made it easy to keey the tract on the number of votes, counting and recognising the duplicate votes or illegal votes.<br>
+    The Voting system can be used for varoius purpose.<br>
+    Here the system designed is only for Eductional institude election level.
 
 ## Research:
 - Manual Pen Paper voting is time consuming process
@@ -18,7 +19,8 @@
 - Electronic based voting is fast and easy.
 
 ## Defining of the Application:
-- The Proposed system ensures the complete freedom to users, this allows to tract the illegal votes and get detailed information about  each candidates and there votes. This system ensures that only registered students are allowed to vote.
+- The Proposed system ensures the complete freedom to users,<br> this allows to tract the illegal votes and get detailed information about  each candidates and there votes.<br>
+-  This system ensures that only registered students are allowed to vote.
     
 ## objective:
     The main objective of this Project is:
