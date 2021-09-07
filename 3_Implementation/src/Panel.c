@@ -9,7 +9,7 @@
  * 
  */
 
-#include "ELECTION.H"
+#include "inc/ELECTION.c"
 
 void adminPanel()
 {
@@ -108,7 +108,7 @@ void studentPanel()
         }
         printf("\n\n  Your Vote(Enter Number):");
         scanf("%d", &voteInput);
-        if (voteInput  < 1 || voteInput > numberOfCandidates)
+        if (voteInput < 1 || voteInput > numberOfCandidates)
         {
             printf("\nInvalid Vote\nTry Again...");
             scanf("%d", &voteInput);

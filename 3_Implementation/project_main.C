@@ -9,7 +9,8 @@
  * 
  */
 
-#include "src/panel.h"
+#include "src/panel.c"
+
 int main()
 {
     while (1)

@@ -33,4 +33,4 @@
 |LTS-3.1|Function based| getWinner| -- | INT: WinnerId | INT: WinnerId | PASS |
 |LTS-3.2|Function based| getWinner| -- | INT: -1 | INT: -1 | PASS |
 |LTS-4.1|Function based| AdminPanel | 2 | Admin panel View | Admin panel View | PASS |
-|LTS-4.2|Function based| getWinner| 1 | Student Panel View | Student Panel View | PASS |
+|LTS-4.2|Function based| StudnentPanel| 1 | Student Panel View | Student Panel View | PASS |
