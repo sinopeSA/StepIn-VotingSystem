@@ -14,7 +14,6 @@
 |TS-3.3|Case based| Student Panel| UserID: 2021BTCSE00016  <br/>your vote: 0| Ivalid Vote. Try Again | Ivalid Vote. Try Again |PASS|
 |TS-3.4|Case based| Student Panel| UserID: 2021BTCSE00|  Try Again, Enter user Id | Try Again  Enter user Id |PASS|
 |TS-3.4|Case based| Student Panel| UserID: 2021BTCSE00020 <br/> your Vote: "NONE" |Count as dummy votes: Wasted| Try Again  Enter user Id |FAIL|
-
 |TS-4.1|Case based| Result| Option:3| "DISPLAYS THE RESULT" | "DISPLAYS THE RESULT" |PASS|
 
 
