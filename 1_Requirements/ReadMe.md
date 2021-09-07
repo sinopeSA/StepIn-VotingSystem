@@ -7,8 +7,8 @@
         2. Admin Section (Panel)
         3. Exit( system Exit)
    
-    Evolving from pen paper based election to Digital casting of election has made it easy to keey the tract on the number of votes, counting and recognising the duplicate votes or illegal votes.<br>
-    The Voting system can be used for varoius purpose.<br>
+    Evolving from pen paper based election to Digital casting of election has made it easy to keep the track on the number of votes, counting and recognising the duplicate votes or illegal votes.
+    The Voting system can be used for varoius purpose.
     Here the system designed is only for Eductional institude election level.
 
 ## Research:
