@@ -8,9 +8,7 @@
  * @copyright Copyright (c) 2021
  * 
  */
-
-#include "header.h"
-
+#include"header.h"
 struct currentValidID
 {
     int year;
@@ -82,12 +80,14 @@ int authenticateAdmin()
     else
     {
         printf("Enter Password: ");
+        int i = 0;
         scanf("%s", password);
         if ((strcmp(password, "admiN")) != 0)
             return 0;
     }
     return 1;
 }
+
 void createCandidateFiles()
 {
     printf("\nCreating candidate files...\n");
@@ -210,6 +210,7 @@ void loadElectionInfoFromFile()
     }
 }
 
+
 int isValid(char userID[15])
 {
     if (strlen(userID) != 14)
@@ -219,23 +220,25 @@ int isValid(char userID[15])
     int inputedRollNo = extractRollNo(userID);
 
     if (inputedYear != currentValidID.year || checkBranchCode(userID) != 1 || inputedRollNo > currentValidID.totalVoters)
-        //prinft("Something is Wrong, try again");
         return 0;
 
     return 1;
 }
 
-void saveVote(char userID[15], int voteInput)
+
+void saveVote(char userID[15], char voteInput)
 {
     char filename[20];
-    sprintf(filename, "candidate%d.txt", voteInput);
+    sprintf(filename, "candidate%d.txt", voteInput - 48);
     FILE *fp = fopen(filename, "r+");
     int location = extractRollNo(userID);
     studentVotes[location - 1] = voteInput;
-    candidateArray[voteInput].votes++;
+    candidateArray[voteInput - 49].votes++;
     fseek(fp, 0, SEEK_SET);
-    fprintf(fp, "%d\n", candidateArray[voteInput].votes);
+    fprintf(fp, "%d\n", candidateArray[voteInput - 49].votes);
     fseek(fp, 0, SEEK_END);
     fprintf(fp, "\n%d", location);
     fclose(fp);
 }
+
+
