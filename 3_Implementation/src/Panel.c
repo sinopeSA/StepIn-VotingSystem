@@ -9,7 +9,7 @@
  * 
  */
 
-#include "inc/ELECTION.c"
+#include "../inc/ELECTION.c"
 
 void adminPanel()
 {
@@ -26,7 +26,6 @@ void adminPanel()
         {
             char inputID[15];
             char input;
-            char banInp;
             int WinnerCid, totalVotedNow = 0;
             printf("\n1.New Election\n2.Continue Previous Election\n3.Result\n4.Logout\nOption:");
             scanf(" %c", &input);
