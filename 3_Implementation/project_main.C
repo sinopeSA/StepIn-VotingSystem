@@ -1,9 +1,9 @@
 /**
- * @file MAIN.C
+ * @file project_main.C
  * @author your name (you@domain.com)
  * @brief 
  * @version 0.1
- * @date 2021-09-06
+ * @date 2021-09-07
  * 
  * @copyright Copyright (c) 2021
  * 

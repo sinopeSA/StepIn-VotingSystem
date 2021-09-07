@@ -1,5 +1,5 @@
 /**
- * @file ELECTION.C
+ * @file ELECTION.c
  * @author your name (you@domain.com)
  * @brief 
  * @version 0.1
@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include"header.h"
+#include "header.h"
 struct currentValidID
 {
     int year;
@@ -210,7 +210,6 @@ void loadElectionInfoFromFile()
     }
 }
 
-
 int isValid(char userID[15])
 {
     if (strlen(userID) != 14)
@@ -224,7 +223,6 @@ int isValid(char userID[15])
 
     return 1;
 }
-
 
 void saveVote(char userID[15], char voteInput)
 {
@@ -240,5 +238,3 @@ void saveVote(char userID[15], char voteInput)
     fprintf(fp, "\n%d", location);
     fclose(fp);
 }
-
-
