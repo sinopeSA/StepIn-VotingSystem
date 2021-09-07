@@ -2,7 +2,7 @@
 PROJECT_NAME = votingsystem
 
 # Output directory
-BUILD = build
+BUILD_DIR = Build
 
 # All source code files
 SRC = project_main.c
@@ -30,7 +30,7 @@ else
    endif
 endif
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
+TEST_OUTPUT = $(BUILD_DIR)/Test_$(PROJ_NAME).$(EXEC)
 
 # All include folders with header files
 INC	= -Iinc\
@@ -52,20 +52,23 @@ $(PROJECT_NAME):all
 # Run the target even if the matching name exists
 .PHONY: run clean test doc all
 
-all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).$(EXEC)
+$(BUILD_DIR):
+	mkdir $(BUILD_DIR)
+
+all:$(BUILD_DIR)
+	gcc $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 # Call `make run` to run the application
 run: all
-	./$(PROJECT_OUTPUT).$(EXEC)
+	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 # Document the code using Doxygen
 doc:
 	make -C ./documentation
 
 # Build and run the unit tests
-test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+test : $(BUILD_DIR)
+	gcc $(SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
 
 analyze: test memcheck staticcheck coverage sanitize_check
@@ -87,8 +90,8 @@ coverage:$(TEST_SRC)
 
 # Remove all the built files, invoke by `make clean`
 clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT) *.gcda *.gcno *.gcov
-
+	$(RM) $(call FixPath,$(BUILD_DIR)/*)
+	rmdir $(BUILD_DIR)
 # Create new build folder if not present
 $(BUILD):
 	mkdir build
