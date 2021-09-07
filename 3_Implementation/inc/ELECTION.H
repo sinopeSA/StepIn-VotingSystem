@@ -9,7 +9,7 @@
  * 
  */
 #include <stdio.h>
-#include <conio.h>
+//#include <conio.h>
 #include <string.h>
 #include <stdlib.h>
 
@@ -84,13 +84,7 @@ int authenticateAdmin()
     else
     {
         printf("Enter Password: ");
-        int i = 0;
-        for (i = 0; i < 5; i++)
-        {
-            password[i] = getch();
-            printf("%c", '*');
-        }
-        password[i] = '\0';
+        scanf("%s", password);
         if ((strcmp(password, "admiN")) != 0)
             return 0;
     }

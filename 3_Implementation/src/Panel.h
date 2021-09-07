@@ -21,10 +21,7 @@ void adminPanel()
             printf("\n Wrong Username or Password \n");
             break;
         }
-
-        printf("\n\nLOGGED IN SUCCESSFULLY (Press Enter)");
-        getch();
-
+        printf("\n\nLOGGED IN SUCCESSFULLY");
         while (1)
         {
             char inputID[15];
@@ -33,7 +30,6 @@ void adminPanel()
             int WinnerCid, totalVotedNow = 0;
             printf("\n1.New Election\n2.Continue Previous Election\n3.Result\n4.Logout\nOption:");
             scanf(" %c", &input);
-
             switch (input)
             {
             case '1':
@@ -67,7 +63,6 @@ void adminPanel()
                 return;
             default:
                 printf("Invalid Option");
-                getch();
             }
         }
     }
@@ -86,8 +81,6 @@ void studentPanel()
             return;
         if (isValid(userID) != 1)
         {
-            printf("\n  Invalid User ID(Press Enter)");
-            getch();
             continue;
         }
 
@@ -114,16 +107,14 @@ void studentPanel()
             printf("\n  %d. %s", i + 1, candidateArray[i].cname);
         }
         printf("\n\n  Your Vote(Enter Number):");
-        voteInput = getch();
-        printf("*");
+        scanf("%d", &voteInput);
         if (voteInput - 48 < 1 || voteInput - 48 > numberOfCandidates)
         {
             printf("\nInvalid Vote\nTry Again...");
-            getch();
+            scanf("%d", &voteInput);
             continue;
         }
         saveVote(userID, voteInput);
-        printf("\n\nThanks for your precious vote(Press Enter)");
-        getch();
+        printf("\n\nThanks for your precious vote.");
     }
 };
