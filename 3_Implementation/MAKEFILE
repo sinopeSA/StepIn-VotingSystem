@@ -13,8 +13,7 @@ unity/unity.c
 #src/ELECTION.c
 
 # All test source files
-TEST_SRC = test/test_main.c\
-unity/unity.c 
+TEST_SRC = test/test_main.c
 #src/calculator_operations.c\
 #test/test_calculator_operations.c\
 #unity/unity.c\
@@ -35,8 +34,7 @@ endif
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
 
 # All include folders with header files
-INC	= -Iinc\
--Iunity\
+INC	= -Iinc
 
 #Library Inlcudes
 #INCLUDE_LIBS = 
@@ -58,7 +56,7 @@ all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).$(EXEC)
 
 # Call `make run` to run the application
-run: all
+run: $(BUILD)
 	./$(PROJECT_OUTPUT).$(EXEC)
 
 # Document the code using Doxygen
@@ -67,16 +65,17 @@ doc:
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
 
 analyze: test memcheck staticcheck coverage sanitize_check
 
 cppcheck: $(SRC)
 	cppcheck --enable=all $(TEST_SRC) $(SRC)
+
 valgrind:
 	valgrind $(BUILD)/$(PROJECT_NAME).$(EXEC)
-	
+
 staticcheck:
 	cppcheck --enable=all -iunity .
 
