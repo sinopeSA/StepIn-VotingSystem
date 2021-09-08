@@ -3,7 +3,8 @@
 ### Run output:
 1. Admin login Image:
    - provide Admin user id and password
-![ Admin Login ]( /6_ImagesAndVideos/images/adminLogin.PNG )
+    
+    ![ Admin Login ]( /6_ImagesAndVideos/images/adminLogin.PNG )
 
 2. Admin conducting New election:
    - Provide Year, branch code, number of stdudent, number of candidates and candidate names
@@ -25,10 +26,12 @@
 
 6. Admin declareing the Results:
     - View Results:
+    
      ![ Results ]( /6_ImagesAndVideos/images/voting_results.PNG )
 
 
 ### Test Output:
  - Test Outcomes:
-     ![ outcomes ]( /6_ImagesAndVideos/images/test.PNG )
      
+     ![ outcomes ]( /6_ImagesAndVideos/images/test.PNG )
+
