@@ -2,22 +2,21 @@ name: Valgrind
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: apt install dependency
-      run: |
-        sudo apt-get -y install valgrind
-        sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: make all
-      run: make -c 3_Implementation/all
-    - name: valgrind
-      run: make -c 3_Implementation/ valgrind
+      - uses: actions/checkout@v2
+      - name: apt install dependency
+        run: |
+          sudo apt-get -y install valgrind
+          sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
+      - name: make all
+        run: make -C 3_Implementation/ all
+      - name: valgrind
+        run: make -C 3_Implementation/ valgrind
