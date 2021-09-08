@@ -5,8 +5,9 @@ PROJECT_NAME = votingsystem
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
-
+SRC = project_main.c
+#test/test_main.c\
+unity/unity.c 
 #src/adminpanel.c\
 #src/studentpanel.c\
 #src/ELECTION.c
@@ -70,6 +71,11 @@ test:$(BUILD)
 	./$(TEST_OUTPUT)
 
 analyze: test memcheck staticcheck coverage sanitize_check
+
+cppcheck: $(SRC)
+	cppcheck --enable=all $(TEST_SRC) $(SRC)
+valgrind:
+	valgrind $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 staticcheck:
 	cppcheck --enable=all -iunity .

@@ -1,24 +1,21 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 //#include "../inc/header.h"
-#include "../unity/unity.h"
-#include "../src/ELECTION.c"
+#include "unity.h"
+//#include "../src/panel.c"
 
 void setUp() {}
 void tearDown() {}
 
 void extract_year_from_id(void)
 {
-    //char username[15] = "Admin", password[6] = "admiN";
-    //char userid[20];
-    TEST_ASSERT_EQUAL(1, isValid("2021BTCSE00025"));
+    char userid[15] = "2021BTCSE00025";
+    TEST_ASSERT_EQUAL(2021, extractYear(userid));
 }
 
 void main()
 {
     UNITY_BEGIN();
-
+    
     RUN_TEST(extract_year_from_id);
+    
     return UNITY_END();
 }
