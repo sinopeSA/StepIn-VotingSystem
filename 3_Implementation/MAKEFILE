@@ -5,14 +5,15 @@ PROJECT_NAME = votingsystem
 BUILD = build
 
 # All source code files
-SRC = project_main.c
+SRC = project_main.c\
 
 #src/adminpanel.c\
 #src/studentpanel.c\
 #src/ELECTION.c
 
 # All test source files
-#TEST_SRC = 
+TEST_SRC = test/test_main.c\
+unity/unity.c 
 #src/calculator_operations.c\
 #test/test_calculator_operations.c\
 #unity/unity.c\

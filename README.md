@@ -31,10 +31,11 @@ A command line based voting system that can be used for various purpose and at v
 # Badges
  ![code quality score](https://www.code-inspector.com/project/27493/score/svg) <br/> 
  ![code quality Grade](https://www.code-inspector.com/project/27493/status/svg) <br/>
- ![Codacy Badge](https://app.codacy.com/project/badge/Grade/ead6b75e009e4844b14c69d66b78e073)<br/>
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ead6b75e009e4844b14c69d66b78e073)](https://www.codacy.com/gh/sinopeSA/StepIn-VotingSystem/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sinopeSA/StepIn-VotingSystem&amp;utm_campaign=Badge_Grade)<br/>
 [![Valgrind](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/Valgrind.yml)<br/>
 [![cppcheck-action](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/cppcheck.yml)<br/>
 [![C/C++ CI](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/c-build.yml/badge.svg)](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/c-build.yml)<br/>
+
 
 
  
