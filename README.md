@@ -43,6 +43,23 @@ A command line based voting system that can be used for various purpose and at v
 |![code quality score](https://www.code-inspector.com/project/27493/score/svg) | ![code quality Grade](https://www.code-inspector.com/project/27493/status/svg) |[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ead6b75e009e4844b14c69d66b78e073)](https://www.codacy.com/gh/sinopeSA/StepIn-VotingSystem/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sinopeSA/StepIn-VotingSystem&amp;utm_campaign=Badge_Grade) | [![Valgrind](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/Valgrind.yml) | [![cppcheck-action](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/cppcheck.yml) | [![C/C++ CI](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/c-build.yml/badge.svg)](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/c-build.yml) |[![Unit testing](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/unittest.yml/badge.svg)](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/unittest.yml) | [![GitInspector](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/sinopeSA/StepIn-VotingSystem/actions/workflows/gitinspector.yml) |
 
 
+# Folder Structure:
+|Folder Name|Folder Defination|
+|---------------------------------|-----------------------------------------------------------------------------------------------------------|
+| 1_Requirements | Includes Intrdocution, Research, Defining the Application, Objective, SWAT Analysis, Functional and Non-Functional Requireents and Future Work|
+| 2_Architecture | Includes Behaviour and Strucural Diagrams |
+| 3_Implementation | Includes Source code, Header files, make file, unit test files |
+| 4_TestPlanAndOutput | Includes the High level and low level test plan with corresponding outputs |
+| 5_Report | Includes Documentation |
+| 6_ImagesAndvideos | Includes Output image and small video |
+| 7_other | Includes Future Work and Future Test |
+
+
+# Contributors:
+| Name | Feature | Status |
+|---------------|--------------------------------|-----------|
+| SHUBHAM AGARWAL | An Application to conduct Voting in Education Institutes | Implemeted|
+
 
  
 
