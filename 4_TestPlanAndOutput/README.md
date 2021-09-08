@@ -1,5 +1,5 @@
 # TEST PLAN AND TEST OUTCOMES
-
+In this Phase  High and Low level tests are planned by listing out Expected and Actual outputs.
 ## HIGH LEVEL TEST PLAN:
 |TEST ID|TEST TYPE|TEST DESCRIPTION|TEST I/P|EXP O/P|ACTUAL O/P|TEST RESULT|
 |---------|-----------|-------------------------|-----------|------------|----------|-------|
