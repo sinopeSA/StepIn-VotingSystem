@@ -58,7 +58,7 @@ A command line based voting system that can be used for various purpose and at v
 # Contributors:
 | Name | Feature | Status |
 |---------------|--------------------------------|-----------|
-| SHUBHAM AGARWAL | An Application to conduct Voting in Education Institutes | Implemeted|
+| SHUBHAM AGARWAL | An Application to conduct Voting in Educational Institutes | Implemeted|
 
 
  
