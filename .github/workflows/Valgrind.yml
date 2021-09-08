@@ -18,4 +18,4 @@ jobs:
       - name: make all
         run: make 3_Implementation
       - name: valgrind
-        run: make -C 3_Implementation
+        run: make 3_Implementation
