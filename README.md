@@ -30,6 +30,13 @@ A command line based voting system that can be used for various purpose and at v
   2. To Create Election and execute the election.
   3. To Allow the application to decide the winner.  
 
+##  Future Work:
+1. The system must keep track of Banned candidates.
+2. The system must keep track of Banned students(voters).
+3. The system must check illegal Votes and must allow the admin to remove them.
+4. The System must Check for voted voter and must not allow them to vote again.
+5. The system must be flexible for all the departments
+   
 # Badges
 |Badge-Code Quality Score|Badge-Code Grade|Badge-Code Quality|Badge-Valgrind|Badge-cppCheck|Badge-C/c++ CI|Badge-Unit Testing| Badge-Git nspector |
 |------------------------|----------------|------------------|--------------|---------------|--------------|-----------------|--------------|
