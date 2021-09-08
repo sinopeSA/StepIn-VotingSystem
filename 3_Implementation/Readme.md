@@ -1,4 +1,8 @@
-# Build And Execute:
+#Implementation:
+## Structre:
+This part for SDLC Phase helps the developer to start the implementation by looking at requirements and architecture followed by test plan.<br/> After implementation one can use this application, below is the process of execution:
+
+## Build And Execute:
 1. First goto 3_implementation folder
 2. Execute Make command on Termial
 3. Navigate to Build folder
