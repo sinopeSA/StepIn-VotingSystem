@@ -9,7 +9,7 @@
    
     Evolving from pen paper based election to Digital casting of election has made it easy to keep the track on the number of votes, counting and recognising the duplicate votes or illegal votes.
     The Voting system can be used for varoius purpose.
-    Here the system designed is only for Eductional institude election level.
+    Here the system designed is only for Educational institute election level.
 
 ## Research:
 - Manual Pen Paper voting is time consuming process
