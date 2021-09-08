@@ -27,7 +27,7 @@
 6. Admin declareing the Results:
     - View Results:
     
-     ![ Results ]( /6_ImagesAndVideos/images/voting_results.PNG )
+     ![ Results ]( /6_ImagesAndVideos/images/Voting_results.PNG )
 
 
 ### Test Output:
