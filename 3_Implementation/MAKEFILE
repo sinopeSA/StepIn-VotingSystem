@@ -75,8 +75,8 @@ analyze: test memcheck staticcheck coverage sanitize_check
 cppcheck: $(SRC)
 	cppcheck --enable=all $(TEST_SRC) $(SRC)
 valgrind:
-	valgrind $(call FixPath,$(BUILD)/$(PROJECT_NAME).$(EXEC))
-
+	valgrind $(BUILD)/$(PROJECT_NAME).$(EXEC)
+	
 staticcheck:
 	cppcheck --enable=all -iunity .
 
