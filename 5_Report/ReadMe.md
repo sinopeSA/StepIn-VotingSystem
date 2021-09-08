@@ -258,8 +258,7 @@ This part for SDLC Phase helps the developer to start the implementation by look
   The video provides the sample demonstration of voting System Application.<br/>
   The Video Below Helps in understanding the fundamentals of this application and also explains the drawback of this application.<br/>
   The Video explain the output and ways to run the application.<br/>
-    
-    ![Demonstration Video]( ../6_ImagesAndVideos/videos/demo.mp4 )
+![Demonstration Video]( ../6_ImagesAndVideos/videos/demo.mp4 )
 
 
 
