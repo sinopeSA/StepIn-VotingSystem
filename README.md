@@ -1,4 +1,7 @@
 # StepIn-VotingSystem
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/87401b88cabc4226bb7154a90b203671)](https://app.codacy.com/gh/sinopeSA/StepIn-VotingSystem?utm_source=github.com&utm_medium=referral&utm_content=sinopeSA/StepIn-VotingSystem&utm_campaign=Badge_Grade_Settings)
+
 A command line based voting system that can be used for various purpose and at various Educational Institutes<br/>
 
     Voting System Application  helps in casting and calculating the votes. This application has 2 different section.
