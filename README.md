@@ -4,7 +4,7 @@
 
 A command line based voting system that can be used for various purpose and at various Educational Institutes<br/>
 
-    Voting System Application  helps in casting and calculating the votes. This application has 2 different section.
+    Voting System Application  helps in casting and calculating the votes. This application has 2 main different section.
     
         1. Student Section (Panel)
         2. Admin Section (Panel)
