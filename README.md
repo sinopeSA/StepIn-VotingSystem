@@ -10,7 +10,7 @@ A command line based voting system that can be used for various purpose and at v
         2. Admin Section (Panel)
         3. Exit( system Exit)
    
-    Evolving from pen paper based election to Digital casting of election has made it easy to keep the track on the number of votes, counting and recognising the duplicate votes or illegal votes.
+    Evolving from pen-paper based election to Digital casting of election has made it easy to keep the track on the number of votes, counting and recognising the duplicate votes or illegal votes.
     The Voting system can be used for varoius purpose.
     Here the system designed is only for Educational institute election level.
 
